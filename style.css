@@ -1,0 +1,219 @@
+/********************* Общие  *********************/
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2A2F37;
+    background: #F5F5F5;
+}
+a {
+    color: #2A2F37;
+    text-decoration: none;
+}
+button {
+    height: 24px;
+    background: unset;
+    border: unset; 
+    cursor: pointer;
+}
+h1 {
+    font-size: 24px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.container {
+    margin: auto;
+    padding: 0 15px;
+    width: 1200px;    
+}
+.d-flex {
+    display: flex;
+}
+.d-flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+.ai-center{
+    align-items: center;
+}
+.d-grid {
+    display: grid;
+}
+.--buttom-line {
+    border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+}
+
+/********************* Заголовок *********************/
+.header {
+    background: #fff;
+}
+.header__row {
+    height: 72px;
+}
+.header__logo img {
+    width: 90px;
+}
+.header__login {
+    margin-right: 24px;
+}
+.header__login img {
+    margin-right: 8px;
+}
+
+/********************* Раздел объявления *********************/
+.ads {
+    margin: 40px 0 160px;
+}
+.ads__content {
+    grid-template-columns: repeat(1, 263px 1fr);
+    gap: 40px;
+}
+
+/********************* Левый блок *********************/
+.sidebar {
+    grid-template-rows: auto 1fr 64px;
+    background: #fff;
+}
+.sidebar__personal img {
+    width: 24px;
+    height: 22px;
+    padding: 10px;
+    margin: 24px;
+    background-color: #eeeeef;
+}
+.sidebar__personal-text span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.sidebar__personal-text a{
+    display: block;
+    opacity: 0.6;
+}
+.sidebar__ad-book {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 24px;
+    padding-left: 24px;
+    border-left: 2px solid #1E3DAF;
+}
+.sidebar__ad-book img {
+    height: 20px;
+}
+.sidebar__ad-book span {
+    margin-left: 12px;
+    color: #1E3DAF;
+}
+.sidebar__exit {
+    align-items: end;
+    margin-left: 24px;
+    margin-bottom: 40px;  
+}
+.sidebar__exit span{
+    margin-left: 12px;
+}
+
+/********************* Правый блок *********************/
+/***** Шапка правого блока *****/
+.ads-right__top {
+    height: 88px;
+}
+.ads-right__top-text span{
+    opacity: 0.6;
+}
+.ads-right__top-add {
+    height: 40px;
+    padding: 8px 16px;
+    background: #1E3DAF;
+}
+.ads-right__top-add span {
+    color: #fff;
+    margin-right: 16px;
+}
+
+/***** Инструменты *****/
+.ads-right__tools {
+    margin: 24px 0;
+}
+.ads-right__tool-search {
+    width: 380px;
+    padding: 8px 16px;
+    background: #fff;
+}
+.ads-right__tool-search input {
+    width: 100%;
+    opacity: 0.4;
+}
+.ads-right__tool-search input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.ads-right__search-string {
+    border: unset;
+}
+.ads-right__filter-tool {
+    margin-left: 12px;
+    padding: 8px 16px;
+    background: rgba(42, 47, 55, 0.08);
+}
+.ads-right__filter-tool span {
+    margin-right: 16px;
+    font-weight: 500;
+}
+.ads-right__current {
+    margin-right: 16px;
+}
+
+/***** Категории *****/
+.ads-right__categories {
+    grid-template-rows: 40px repeat(8, 80px);
+    gap: 8px;
+}
+.ads-right__category-top {
+    grid-template-columns: 225px repeat(3, 27%);
+    align-items: center;
+    padding-left: 24px;
+    background: #fff;
+}
+.ads-right__category-top span {
+    font-weight: 700;
+    opacity: 0.6;
+}
+/***** Блоки *****/
+.ads-right__product-item {
+    grid-template-columns: 27% 27% 28% 15% 1fr;
+    padding: 0 24px;
+    background: #fff;
+}
+.ads-right__product-item a {
+    font-weight: 700;
+}
+.ads-right__product-item button {
+    width: 40px;
+}
+
+/********************* Подвал *********************/
+.footer{
+    background:#2A2F37;
+}
+.footer-top {
+    height: 120px;
+    border-bottom: 1px solid #3a3e46;
+}
+.footer__text {
+    margin-left: 40px;
+    padding-left: 40px;
+    line-height: 32px;
+    color: #8a8d91;
+    border-left: 1px solid #6d7076;
+}
+.footer__social-link {
+    width: 144px;
+}
+.footer__info {
+    height: 88px;
+}
+.footer__info span,
+.footer__info a {
+    color: #8a8d91; 
+}

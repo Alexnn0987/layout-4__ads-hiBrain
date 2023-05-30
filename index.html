@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hiBrain Объявления</title>
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="ads-wrapper">
+        <!-------------------- Заголовок -------------------->
+        <header class="header">
+            <div class="container">
+                <div class="header__row d-flex-sb ai-center">                    
+                    <a href="#" class="header__logo">
+                        <img src="images/header-logo.jpg" alt="верхнее лого">
+                    </a>
+                    <div class="header__group d-flex">                        
+                        <a href="#" class="header__login d-flex">
+                            <img src="images/icon-login.svg" alt="Логин">
+                            <span>Войти</span>
+                        </a>
+                        <a href="#" class="header__search d-flex">
+                            <img src="images/search.svg" alt="иконка поиска">
+                        </a>
+                    </div>                    
+                </div>
+            </div>
+        </header>
+        <!-------------------- Раздел объявления -------------------->
+        <section class="ads">
+            <div class="container">
+                <div class="ads__content d-grid">
+        <!-------------------- Левый блок -------------------->
+                    <aside class="sidebar d-grid">
+                        <div class="sidebar__personal d-flex ai-center --buttom-line">
+                            <img src="images/personal-images.svg" alt="Личное фото">
+                            <div class="sidebar__personal-text">
+                                <span>Алексей У.</span>
+                                <a href="#">Личный кабинет</a>
+                            </div>
+                        </div>
+                        <div class="sidebar__ad-book d-flex ai-center">
+                            <img src="images/ad-book.svg" alt="Иконка книги">
+                            <span>Объявления</span>
+                        </div>
+                        <button class="sidebar__exit d-flex">
+                            <img src="images/icon-exit.svg" alt="Иконка выхода">
+                            <span>Выход</span>
+                        </button>
+                    </aside>
+        <!-------------------- Правый блок -------------------->
+                    <div class="ads-right d-grid">
+                        <!------------- Шапка правого блока ------------->
+                        <div class="ads-right__top d-flex-sb --buttom-line">
+                            <div class="ads-right__top-text">
+                                <h1>Объявления</h1>
+                                <span>Всего: 45</span>
+                            </div>
+                            <button class="ads-right__top-add d-flex ai-center">
+                                <span>Добавить</span>
+                                <img src="images/icon-plus.svg" alt="иконка плюс">
+                            </button>
+                        </div>
+                        <!------------- Инструменты ------------->
+                        <div class="ads-right__tools d-flex-sb">
+                            <div class="ads-right__tools-item d-flex">
+                                <form class="ads-right__tool-search d-flex-sb">
+                                    <input class="ads-right__search-string" type="search" placeholder="Найти объявление"> 
+                                    <button class="ads-right__search-submit" type="submit">
+                                        <img src="images/search.svg" alt="иконка поиска">
+                                    </button>
+                                </form>
+                                <div class="ads-right__filter-tool d-flex ai-center">
+                                    <span>Фильтровать</span>
+                                    <button class="ads-right__filter-btn">
+                                        <img src="images/icon-filter.svg" alt="Иконка фильтра">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="ads-right__tools-item d-flex ai-center">
+                                <span class="ads-right__current">1-8 из 145</span>
+                                <div class="ads-right__arrows d-flex">
+                                    <button class="ads-right__arrow-left">
+                                        <img src="images/arrow-left.svg" alt="Левая стрелка">
+                                    </button>
+                                    <button class="ads-right__arrow-right">
+                                        <img src="images/arrow-right.svg" alt="Правая стрелка">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------- Категории ------------->
+                        <div class="ads-right__categories d-grid">
+                            <div class="ads-right__category-top d-grid">                                
+                                <div class="ads-right__name d-flex">
+                                    <span>Название объявления</span>
+                                    <img src="images/up-down.svg" alt="Иконка стрелок">                                    
+                                </div>
+                                <span>Категория</span>                         
+                                <span>Дата публикации</span>
+                                <span>Публикация</span>                              
+                            </div>                            
+                            <!-- Блок категории 1 -->
+                            <div class="ads-right__product-item d-grid ai-center">                           
+                                <a href="#" class="ads-right__product-title">Чепчик</a>
+                                <span>Одежда</span>                              
+                                <span>12 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                              
+                            </div>
+                            <!-- Блок категории 2 -->
+                            <div class="ads-right__product-item d-grid ai-center">                                   
+                                <a href="#" class="ads-right__product-title">Самовар</a>
+                                <span></span>                                
+                                <span>13 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                                    
+                            </div>
+                            <!-- Блок категории 3 -->
+                            <div class="ads-right__product-item d-grid ai-center">                                   
+                                <a href="#" class="ads-right__product-title">Стиральная машина LG</a>
+                                <span></span>                                
+                                <span>14 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                                    
+                            </div>
+                            <!-- Блок категории 4 -->
+                            <div class="ads-right__product-item d-grid ai-center">                                   
+                                <a href="#" class="ads-right__product-title">Часы Rolex</a>
+                                <span></span>                                
+                                <span>15 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                                    
+                            </div>
+                            <!-- Блок категории 5 -->
+                            <div class="ads-right__product-item d-grid ai-center">                                   
+                                <a href="#" class="ads-right__product-title">Lada Kalina</a>
+                                <span></span>                                
+                                <span>12 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                                    
+                            </div>
+                            <!-- Блок категории 6 -->
+                            <div class="ads-right__product-item d-grid ai-center">                                   
+                                <a href="#" class="ads-right__product-title">Спортивный велосипед</a>
+                                <span></span>                                
+                                <span>12 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                                    
+                            </div>
+                            <!-- Блок категории 7 -->
+                            <div class="ads-right__product-item d-grid ai-center">                                   
+                                <a href="#" class="ads-right__product-title">Ботинки поношенные</a>
+                                <span></span>                                
+                                <span>12 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                                    
+                            </div>
+                            <!-- Блок категории 8 -->
+                            <div class="ads-right__product-item d-grid ai-center">                                   
+                                <a href="#" class="ads-right__product-title">Приставка Dendy</a>
+                                <span></span>                                
+                                <span>12 сентября 2020</span>
+                                <span>Да</span>
+                                <button>
+                                    <img src="images/three-dots.svg" alt="Иконка твоеточие">
+                                </button>                                    
+                            </div>                                
+                            
+                        </div>
+                    </div>
+                </div>                
+            </div>            
+        </section>
+        <!-------------------- Подвал -------------------->
+        <footer class="footer">
+            <div class="container">                
+                <div class="footer-top d-flex-sb ai-center">
+                    <div class="footer__content d-flex-sb ai-center">
+                        <img src="images/footer-logo.svg" alt="нижний лого" class="footer__logo">
+                        <span class="footer__text">Доска объявлений</span>
+                    </div>
+                    <div class="footer__social-link d-flex-sb">
+                        <a href="https://www.facebook.com/" title="facebook.com" target="_blank"><img src="images/icon-facebook.svg" alt="facebook"></a>
+                        <a href="https://instagram.com/" title="instagram.com" target="_blank"><img src="images/icon-instagram.svg" alt="instagram"></a>
+                        <a href="https://vk.com/" title="vk.com" target="_blank"><img src="images/icon-vk.svg" alt="vkontakte"></a>
+                    </div>
+                </div>
+                <div class="footer__info d-flex-sb ai-center">
+                    <span>© ООО «Доска диджитал», 2022</span>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">support@doska.ru</a>
+                    <a href="#">8 800 000 00 00</a>
+                </div>                
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
